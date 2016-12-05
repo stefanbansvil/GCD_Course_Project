@@ -76,7 +76,11 @@ final_data <- data[,meanstd_vector]
 
 final <- select(final_data,-activitylabel)
 
-avg_final <- final %>% group_by(subject,activity) %>% summarise_all(mean)
+### Summarise means by subject and activity to create a tidy dataset
 
+tidy <- final %>% group_by(subject,activity) %>% summarise_all(mean)
 
+### export final result
+
+write.table(tidy, file ="tidy.txt", row.names = FALSE, quote = FALSE)
 

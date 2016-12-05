@@ -4,17 +4,17 @@ This code book maps out the identifiers, activities and the measurements in the 
 
 ## Identifiers 
 
-*subject 
-*activity
+* subject 
+* activity
 
 ## Activities 
 
-*LAYING
-*SITTING 
-*STANDING 
-*WALKING 
-*WALKING_DOWNSTAIRS 
-*WALKING_UPSTAIRS 
+* LAYING
+* SITTING 
+* STANDING 
+* WALKING 
+* WALKING_DOWNSTAIRS 
+* WALKING_UPSTAIRS 
 
 ## Measurements
 
